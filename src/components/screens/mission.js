@@ -1,8 +1,7 @@
-import styles from '../styles/home.module.css'
+import styles from '../styles/mission.module.css'
 import NavButton from '../features/navButton.js'
 
-
-function Home({events}) {
+function Mission({events}) {
     return(
         <div className={styles.main}>
             <NavButton path={"/home"} text={"Home"}/>
@@ -14,4 +13,4 @@ function Home({events}) {
 
 }
 
-export default Home
+export default Mission

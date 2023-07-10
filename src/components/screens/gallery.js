@@ -1,4 +1,5 @@
 import styles from '../styles/gallery.module.css'
+import NavButton from '../features/navButton.js'
 
 function Gallery({events}) {
     return(

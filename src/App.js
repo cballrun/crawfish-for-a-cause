@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './components/screens/home'
 import Events from './components/screens/events'
-import About from './components/screens/about'
+import Mission from './components/screens/mission'
 import Gallery from './components/screens/gallery'
 
 
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home events={events}/>}/>
           <Route path="/events" element={<Events events={events} />}/>
-          <Route path="/about" element={<About/>}/>
+          <Route path="/mission" element={<Mission/>}/>
           <Route path="/gallery" element={<Gallery events={events}/>}/>
         </Routes>
       </Router>
