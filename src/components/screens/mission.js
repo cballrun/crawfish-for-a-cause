@@ -4,7 +4,7 @@ import NavButton from '../features/navButton.js'
 function Mission({events}) {
     return(
         <div className={styles.main}>
-            <NavButton path={"/home"} text={"Home"}/>
+            <NavButton path={"/"} text={"Home"}/>
             <NavButton path={"/events"} text={"Events"}/>
             <NavButton path={"/mission"} text={"Mission"}/>
             <NavButton path={"/gallery"} text={"Gallery"}/>

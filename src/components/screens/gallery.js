@@ -4,7 +4,10 @@ import NavButton from '../features/navButton.js'
 function Gallery({events}) {
     return(
         <div className={styles.main}>
-            Gallery
+            <NavButton path={"/"} text={"Home"}/>
+            <NavButton path={"/events"} text={"Events"}/>
+            <NavButton path={"/mission"} text={"Mission"}/>
+            <NavButton path={"/gallery"} text={"Gallery"}/>
         </div>
     )
 

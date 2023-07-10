@@ -1,3 +1,7 @@
+.navButton {
+    display: flex;
+}
+
 .button{
     color: green;
     cursor: pointer;
