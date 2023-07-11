@@ -1,7 +1,10 @@
 import styles from '../styles/events.module.css'
 import NavButton from '../features/navButton.js'
+import FetchEvents from '../apiCalls/fetchEvents'
 
 function Events({events}) {
+    
+
     return(
         <div className={styles.main}>
             <NavButton path={"/"} text={"Home"}/>
