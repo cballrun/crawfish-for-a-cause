@@ -1,9 +1,8 @@
 import styles from '../styles/events.module.css'
 import NavButton from '../features/navButton.js'
-import FetchEvents from '../apiCalls/fetchEvents'
 
 function Events({events}) {
-    
+    console.log("string of events", events)
 
     return(
         <div className={styles.main}>
@@ -15,5 +14,5 @@ function Events({events}) {
     )
 
 }
-
+  
 export default Events

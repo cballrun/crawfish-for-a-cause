@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import FetchEvents from './components/apiCalls/fetchEvents'
 import Home from './components/screens/home'
 import Events from './components/screens/events'
 import Mission from './components/screens/mission'
@@ -11,6 +12,12 @@ import Gallery from './components/screens/gallery'
 
 function App() {
   const [events, setEvents] = useState("")
+
+  useEffect(() => {
+    FetchEvents({
+        setEvents
+    })
+  }, []) 
   
   return (
     <div className="App">

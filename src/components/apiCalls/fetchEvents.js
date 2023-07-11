@@ -31,9 +31,8 @@ export default function FetchEvents({
   .then((data) => {
     var data1 = data["data"] 
     console.log("events Data", data1)
-    var institutionsData = data1["events"]
-    setEvents(EventsData)
-    setLoading(false)
-    return EventsData
+    var eventsData = data1["events"]
+    setEvents(eventsData)
+    return eventsData
   })
 }
