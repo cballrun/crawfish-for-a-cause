@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './components/screens/home'
+import Events from './components/screens/events'
+import Mission from './components/screens/mission'
+import Gallery from './components/screens/gallery'
+
+
+
 
 function App() {
+  const [events, setEvents] = useState("")
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home events={events}/>}/>
+          <Route path="/events" element={<Events events={events} />}/>
+          <Route path="/mission" element={<Mission/>}/>
+          <Route path="/gallery" element={<Gallery events={events}/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 export default App;
+
