@@ -1,0 +1,13 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    color: green;
+    cursor: pointer;
+}
+
+.buttonText{
+    color: red;
+}
