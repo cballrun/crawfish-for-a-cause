@@ -2,6 +2,8 @@ import styles from '../styles/events.module.css'
 import NavButton from '../features/navButton.js'
 
 function Events({events}) {
+    
+
     return(
         <div className={styles.main}>
             <NavButton path={"/"} text={"Home"}/>
@@ -12,5 +14,5 @@ function Events({events}) {
     )
 
 }
-
+  
 export default Events
