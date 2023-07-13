@@ -1,4 +1,3 @@
-
 import styles from '../styles/header.module.css'
 import NavBar from './navBar'
 
