@@ -1,11 +1,12 @@
 import styles from '../styles/gallery.module.css'
-import NavBar from '../features/navBar.js'
+import Header from '../features/header'
 
 function Gallery({events}) {
     return(
-        <div className={styles.main}>
-          <NavBar/>
+        <div className={styles.header} >
+            <Header/>
         </div>
+
     )
 
 }
