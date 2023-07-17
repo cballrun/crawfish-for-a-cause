@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 17.5vh;
+    background-color: #092f79;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.footerText {
+    display: flex;
+    justify-content: left;
+    color: #FFFFFF;
+    font-family: 'Monsterrat' sans-serif;
+    font-size: 4vh;
+    font-weight: bold;
+    padding-left: 6vw;
+    
+
+}
+.footerTextMid {
+    display: flex;
+    justify-content: left;
+    color: #61DA28;
+    font-family: 'Monsterrat' sans-serif;
+    font-size: 4vh;
+    font-weight: bold;
+    padding-left: 6vw;
+
+}
