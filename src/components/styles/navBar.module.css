@@ -1,6 +1,10 @@
 .navBar {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 15vh;
+    padding-left: 46.5vw;
 }
 
 .button{

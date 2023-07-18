@@ -1,12 +1,17 @@
 .navButton {
     display: flex;
+    justify-content: space-between;
 }
 
 .button{
     color: green;
     cursor: pointer;
+    margin-right: 1.75vh;
 }
 
 .buttonText{
-    color: red;
+    color: #FFFFFF;
+    font-family: 'Monsterrat' sans-serif;
+    font-size: 1.5vh;
+    font-weight: bold;
 }
