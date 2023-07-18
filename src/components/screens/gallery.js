@@ -4,11 +4,9 @@ import Footer from '../features/footer'
 
 function Gallery({events}) {
     return(
-        <div className={styles.header} >
+        <div className={styles.main} >
             <Header/>
-                <div className={styles.footer} >
-                    <Footer/>
-                </div>
+            <Footer/>
         </div>
 
     )

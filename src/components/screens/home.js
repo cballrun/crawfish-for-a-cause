@@ -5,13 +5,10 @@ import Footer from '../features/footer'
 
 function Home({events}) {
     return(
-    
-    <div className={styles.header} >
-        <Header/>
-            <div className={styles.footer} >
-                <Footer/>
-            </div>
-    </div>
+        <div className={styles.main} >
+            <Header/>
+            <Footer/>
+        </div>
 
     )
 
