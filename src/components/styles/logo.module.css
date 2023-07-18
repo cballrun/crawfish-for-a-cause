@@ -1,0 +1,12 @@
+.logoContainer {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 2vw;
+}
+.logoImage {
+    max-width: 25vh;
+    max-height: 25vh;
+    height: auto;
+    width: auto;
+}

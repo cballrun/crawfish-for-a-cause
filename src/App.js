@@ -9,7 +9,6 @@ import Gallery from './components/screens/gallery'
 
 
 
-
 function App() {
   const [events, setEvents] = useState("")
 
