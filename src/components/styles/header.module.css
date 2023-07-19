@@ -1,6 +1,13 @@
+.bottomWords{
+    display: flex;
+    flex-direction: row;
+}
+
+
 .header {
     display: flex;
     flex-direction: row;
+    
     width: 100vw;
     height: 25vh;
     background-color: #092f79;
@@ -17,4 +24,5 @@
 }
 .lastWord {
     color: #61DA28;
+    margin-left: 1vw;
 }
