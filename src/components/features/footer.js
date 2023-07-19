@@ -4,13 +4,13 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <text className={styles.footerText}>
-                Good Food. 
+                GOOD FOOD. 
             </text>
             <text className={styles.footerTextMid}>
-               Good Music.
+               GOOD MUSIC.
             </text>
             <text className={styles.footerText}>
-               Good Fun.
+               GOOD FUN.
             </text>
         </div>
     )
