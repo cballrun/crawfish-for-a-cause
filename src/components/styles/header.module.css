@@ -7,10 +7,21 @@
 .header {
     display: flex;
     flex-direction: row;
-    
     width: 100vw;
     height: 25vh;
     background-color: #092f79;
+    position: relative;
+    
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 20vh;
+    right: 0;
+    border-top: 13vh solid #092f79; 
+    border-left: 160vw solid transparent; 
+    width: 0;
+    height: 0;
 }
 .headerText {
     color: #FFFFFF;
@@ -19,6 +30,8 @@
     align-items: flex-start;
     margin-top: 2vh;
     margin-left: 12.5vw;
+    position: relative;
+    z-index: 1;
     font-family: 'Monsterrat' sans-serif;
     font-size: 7vh;
     font-weight: bold;
