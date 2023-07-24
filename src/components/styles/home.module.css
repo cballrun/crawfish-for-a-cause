@@ -1,3 +1,55 @@
-.main{
- color: red;   
+.bodyHeader {
+  margin-top: 3vh;
+  font-size: 4vh;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  margin-left: 2vw;
+
+}
+
+.bodySubheader {
+  display: flex;
+  font-size: 3vh;
+  margin-left: 2vw;
+  color: rgb(54, 50, 50);
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.details {
+  color: rgb(54, 50, 50);
+  font-size: 2.5vh;
+  display: flex;
+  text-align: left;
+}
+
+.lowerBody {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1vh;
+}
+.main {
+  color: #092f79;
+}
+.mission {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2vw;
+  font-size: 3vh;
+}
+
+.slideshow {
+  width: 60vw;
+  height: 40vh;
+}
+
+.statement {
+  font-weight: bold;
+
 }
