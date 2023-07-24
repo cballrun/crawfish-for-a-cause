@@ -1,0 +1,35 @@
+.arrow {
+  height: 5vh;
+  width: 5vw;
+  cursor: pointer;
+  
+}
+.inactiveArrow {
+  opacity: 50%;
+  height: 5vh;
+  width: 5vw;
+  cursor: default;
+  pointer-events: none;
+}
+.main {
+  font-weight: bolder;
+  display: flex;
+  margin-left: 5vw;
+  flex-direction: column;
+  margin-top: 1vh;
+}
+.nav {
+  max-width: 60vw;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.slideImage {
+  max-height: 40vh;
+  min-height: 35vh;
+  min-width: 35vw;
+  max-width: 40vw;
+  border: #e6e0e0 1vh solid;
+  border-radius: 15px;
+  pointer-events: none;
+}
