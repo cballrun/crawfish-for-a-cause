@@ -1,8 +1,8 @@
 .bottomWords{
     display: flex;
     flex-direction: row;
+    white-space: nowrap;
 }
-
 
 .header {
     display: flex;
